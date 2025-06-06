@@ -565,7 +565,6 @@ const path1 = "scA0.toogles.login";
         padding: 20,
         alignItems: "center",
         justifyContent: "center",
-        margimBottom: 10,
       }}
     >
       <RN.TextInput
