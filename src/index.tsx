@@ -524,7 +524,20 @@ xmlns="http://www.w3.org/2000/svg"
 }`],
 
           screenElements:[
-        () => {
+        
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+  width: "100%",
+  alignItems: "center",
+  justifyContent: "center",
+  backgroundColor: "#a7c4f2",
+  padding: "20px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() => {
   const [userName, setUserName] = React.useState("");
   const [userPassword, setUserPassword] = React.useState("");
   const [mensagemErro, setMensagemErro] = React.useState("");
@@ -615,7 +628,11 @@ const path1 = "scA0.toogles.login";
       </RN.Pressable>
     </RN.View>
   );
-}, 
+}],
+
+            args,
+          }}/>
+        , 
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:['{}'],
