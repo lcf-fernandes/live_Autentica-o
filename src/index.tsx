@@ -568,7 +568,7 @@ xmlns="http://www.w3.org/2000/svg"
         placeholder="Nome de usuário"
         style={{
           borderWidth: 1,
-          borderColor: "#ccc",
+          borderColor: "#65686e",
           paddingVertical: 10,
           paddingHorizontal: 15,
           borderRadius: 8,
@@ -582,7 +582,7 @@ xmlns="http://www.w3.org/2000/svg"
         placeholder="Senha"
         style={{
           borderWidth: 1,
-          borderColor: "#ccc",
+          borderColor: "#65686e",
           paddingVertical: 10,
           paddingHorizontal: 15,
           borderRadius: 8,
