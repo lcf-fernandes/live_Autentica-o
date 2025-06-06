@@ -651,7 +651,7 @@ const path1 = "scA0.toogles.login";
 
             functions:[async (...args) =>
  functions.funcGroup({ args, pass:{
- arrFunctions: [() => ["scA0.toogles.login", "==", false ]v]
+ arrFunctions: [() => ["scA0.toogles.login", "==", false ]]
  , trigger: 'on listen'
 }})],            childrenItems:[(...args:any) => <Elements.Text pass={{
           arrProps: [
