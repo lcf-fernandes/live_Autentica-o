@@ -524,20 +524,25 @@ xmlns="http://www.w3.org/2000/svg"
   padding: "20px",
 }`],
 
-          screenElements:[() => {
-                  const textStyle = {
-                    fontSize: 20,
-                    color: '#fff2',
-                    textAlign:'center',
-                    maxWidth: 200,
-                    // maxWidth: '200px'<= #ATTENTION: Native ERROR! No string!
-                  };
+          screenElements:[
 
-                  return (
-                    <RN.Text style={textStyle}>
-                      {'Adicione Elementos nessa tela!'}
-                    </RN.Text>);
-                }],
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[`{
+  width: "100%",
+  height: "100%",
+  alignItems: "center",
+  justifyContent: "center",
+  backgroundColor: "#050333",
+  padding: "20px",
+}`],
+
+            functions:[()=>{}],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
           functions:[()=>{}],
 
