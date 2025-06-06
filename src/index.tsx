@@ -520,7 +520,7 @@ xmlns="http://www.w3.org/2000/svg"
   height: "100%",
   alignItems: "center",
   justifyContent: "center",
-  backgroundColor: "#050333",
+  backgroundColor: "#a7c4f2",
   padding: "20px",
 }`],
 
@@ -534,7 +534,7 @@ xmlns="http://www.w3.org/2000/svg"
   height: "100%",
   alignItems: "center",
   justifyContent: "center",
-  backgroundColor: "#050333",
+  backgroundColor: "#a7c4f2",
   padding: "20px",
 }`],
 
