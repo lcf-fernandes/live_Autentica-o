@@ -649,7 +649,11 @@ const path1 = "scA0.toogles.login";
   padding: "20px",
 }`],
 
-            functions:[()=>{}],            childrenItems:[(...args:any) => <Elements.Text pass={{
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [() => ["scA0.toogles.login", "==", false ]v]
+ , trigger: 'on listen'
+}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
           ],
