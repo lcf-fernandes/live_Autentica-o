@@ -517,6 +517,7 @@ xmlns="http://www.w3.org/2000/svg"
 
           styles:[`{
   width: "100%",
+  height: "100%",
   alignItems: "center",
   justifyContent: "center",
   backgroundColor: "#a7c4f2",
@@ -531,6 +532,7 @@ xmlns="http://www.w3.org/2000/svg"
 
             styles:[`{
   width: "100%",
+  height: "100%",
   alignItems: "center",
   justifyContent: "center",
   backgroundColor: "#a7c4f2",
@@ -639,6 +641,7 @@ const path1 = "scA0.toogles.login";
 
             styles:[`{
   width: "100%",
+  height: "100%",
   alignItems: "center",
   justifyContent: "center",
   backgroundColor: "#a7c4f2",
