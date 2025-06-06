@@ -663,7 +663,7 @@ xmlns="http://www.w3.org/2000/svg"
   messagingSenderId: "750912250366",
   appId: "1:750912250366:web:4629eac789a718a74220af"
 } } 
-, 'scA0': { 'toogles': { 'login': show } 
+, 'scA0': { 'toogles': { 'login': true } 
  } 
  
 } 
