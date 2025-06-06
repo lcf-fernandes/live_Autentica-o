@@ -569,7 +569,7 @@ const path1 = "scA0.toogles.login";
     <RN.View
       style={{
         padding: 20,
-        alignItems: "stretch",
+        alignItems: "center",
         justifyContent: "center",
       }}
     >
