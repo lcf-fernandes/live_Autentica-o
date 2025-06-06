@@ -515,15 +515,14 @@ xmlns="http://www.w3.org/2000/svg"
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"scA0",
 
-          styles:[
-              {
-                backgroundColor: '#101',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100%',
-                width: '100%',
-              }
-              ],
+          styles:[`{
+  width: "100%",
+  height: "100%",
+  alignItems: "center",
+  justifyContent: "center",
+  backgroundColor: "#050333",
+  padding: "20px",
+}`],
 
           screenElements:[() => {
                   const textStyle = {
