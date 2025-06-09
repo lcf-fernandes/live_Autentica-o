@@ -538,7 +538,11 @@ xmlns="http://www.w3.org/2000/svg"
   padding: "20px",
 }`],
 
-            functions:[()=>{}],            childrenItems:[() => {
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [() => ["scA0.toogles.login", "==", true ]]
+ , trigger: 'on listen'
+}})],            childrenItems:[() => {
   const [userName, setUserName] = React.useState("");
   const [userPassword, setUserPassword] = React.useState("");
   const [mensagemErro, setMensagemErro] = React.useState("");
